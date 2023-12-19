@@ -1,0 +1,17 @@
+image{
+    object-fit: cover;
+    width: 100vh;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.title {
+    color: #252e48;
+    font-size: 27px;
+    line-height: 10px;
+    margin-left: 17px;
+    margin-right: 27px;
+    text-align: center;
+    margin-top: 60px;
+}
