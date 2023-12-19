@@ -9,6 +9,7 @@
     font-weight: lighter;
 
   }
+
   .cards__item__img {
     /* position: absolute; */
     margin-top: 55px;
@@ -26,6 +27,7 @@
   .cards__item__inner{
     width: 600px;
     display: flex;
+    align-items: center;
     /* margin: auto; */
 }
 
@@ -37,6 +39,7 @@
     margin-right: 27px;
     text-align: center;
     margin-top: 8px;
+    width: 256px;
   }
 
   .rows {
@@ -59,6 +62,7 @@
     margin-right: 27px;
     text-align: center;
     margin-top: 60px;
+    width: 256px;
   }
 
   .link-wrap {
@@ -68,6 +72,7 @@
     text-align: center;
     align-items: center;
     margin-top: 15px;
+    width: 256px;
   }
 
   .Wattpad {
@@ -129,3 +134,77 @@
         width: 100px;
       }
   }
+
+  @media only screen and (max-width: 760px) {
+    .content__blog__container {
+      width: 84%;
+    }
+    .rows {
+        display: inline;
+        margin: auto;
+      }
+      .cards__item__inner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin: auto; */
+    }
+
+    .cards__item__img {
+      /* position: absolute; */
+      margin-top: 55px;
+      margin-left: 0;
+      right: 0;
+      bottom: 0;
+      width: 256px;
+      height: 400px;
+      object-fit: cover;
+      transition: all 0.2s linear;
+      align-items: center;
+      
+    }
+    .not-rows {
+      display: inline;
+      width: 100%;
+  }
+  .link-wrap {
+    color: #252e48;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 256px;
+    margin-left: 10px;
+  }
+
+  .cards__item__text {
+    color: #252e48;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 8px;
+    width: 70%;
+    align-items: center;
+  }
+
+  .cards__item__text {
+    color: #252e48;
+    font-size: 12px;
+    line-height: 17px;
+    margin-left: 17px;
+    margin-right: 27px;
+    text-align: center;
+    margin-top: 8px;
+    width: 256px;
+  }
+
+  .text {
+    color: #252e48;
+    line-height: 17px;
+    text-align: center;
+    margin-left: 15px;
+  }
+  
+}
