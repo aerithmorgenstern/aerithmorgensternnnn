@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css';
+import customIcon from './images/logo.png';
+
 
 
 function Navbar() {
@@ -29,6 +31,7 @@ function Navbar() {
       <nav className = 'navbar'>
         <div className='navbar-container'>
             <Link to='/home' className='navbar-logo' onClick = {closeMobileMenu}>
+                {/* <img src={customIcon} alt="Custom Icon" style={{ width: '300px' }} /> */}
                 AERITH MORGENSTERN
             </Link>
             <div className ='menu-icon' onClick = {handleClick}>
