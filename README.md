@@ -77,6 +77,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # aerithmorgenstern
 # aerithmorgenstern
 # aerithmorgenstern
+<<<<<<< HEAD
 # aerithmorgenstern
 # aerithmorgenstern
 # aerithmorgenstern
+=======
+>>>>>>> 8930061 (Initial commit)
