@@ -64,7 +64,7 @@ function Cards() {
           </ul>
           <h1><br/>Coming Soon...</h1>
             <ul className='cards__items'>
-            <div className='rows'>
+            <div className='single-rows'>
             {/* <CardItem
               src={require('./images/justice.png')}
               titletext= "JUSTICE"

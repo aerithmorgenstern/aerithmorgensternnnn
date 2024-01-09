@@ -48,6 +48,12 @@
     width: max-content;
   }
 
+  .single-rows {
+    display: flex;
+    margin: auto;
+    width: max-content;
+  }
+
   .not-rows {
     display: flex;
     margin: auto;
