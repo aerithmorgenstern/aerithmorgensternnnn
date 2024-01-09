@@ -59,14 +59,10 @@ function Cards() {
               ]}
               >
               </CardItem>
-              
-           {/* <CardItem
-              src={require('./images/whiteblank.jpg')}
-            /> */}
           </div>
           </div>
           </ul>
-          <h1><br/><br/>Coming Soon...</h1>
+          <h1><br/>Coming Soon...</h1>
             <ul className='cards__items'>
             <div className='rows'>
             <CardItem
@@ -80,6 +76,17 @@ function Cards() {
               endgame = "[Jaime Lannister x fem!oc]"
             />
             <CardItem
+              src={require('./images/rebellion.png')}
+              titletext= "REBELLION"
+              au= "CHILDHOOD ENEMIES AU!"
+            //   quote="❝ IT WAS IN THAT MOMENT THAT PERCY REALIZED SHE WAS HOPELESSLY IN LOVE WITH FIVE HARGREEVES. ❞"
+              infotext1="In which Daphne Nightingale and Coriolanus Snow pay for both of their fathers' crimes in the Hunger Games and with each other."
+              infotext2= "They may dislike each other, but Daphne's only chance at victory is Coriolanus, and his is her."
+              infotext3= "After all, her name is synonymous with rebels and rebellion, and she'll need Coriolanus if she wants to survive."
+              // infotext4="Her name is synonymous with rebels and rebellion, and she'll need to play to survive."
+              endgame = "[Coriolanus Snow x fem!oc]"
+            />
+            {/* <CardItem
               src={require('./images/angelic.png')}
               titletext= "ANGELIC"
               au= "TIME-TRAVELING AU!"
@@ -89,7 +96,7 @@ function Cards() {
               infotext3= "But perhaps there's more to her than she thought."
               infotext4="After all, she's too angelic, even for a shadowhunter."
               endgame = "[Will Herondale x fem!oc]"
-            />
+            /> */}
           </div>          
           </ul>
           <br/>
