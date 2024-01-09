@@ -65,7 +65,7 @@ function Cards() {
           <h1><br/>Coming Soon...</h1>
             <ul className='cards__items'>
             <div className='rows'>
-            <CardItem
+            {/* <CardItem
               src={require('./images/justice.png')}
               titletext= "JUSTICE"
               au= "JON'S TWIN AU!"
@@ -74,7 +74,7 @@ function Cards() {
               infotext2= "There is no justice in the game of thrones."
               infotext3= "When you play it, you win or you die."
               endgame = "[Jaime Lannister x fem!oc]"
-            />
+            /> */}
             <CardItem
               src={require('./images/rebellion.png')}
               titletext= "REBELLION"
