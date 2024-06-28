@@ -125,7 +125,7 @@
     margin-right: 2px;
   }
   
-  @media only screen and (max-width: 1100px) {
+  @media only screen and (max-width: 750px) {
     .content__blog__container {
       width: 84%;
     }
@@ -133,23 +133,14 @@
         display: inline;
         margin: auto;
       }
-  }
-
-  @media only screen and (max-width: 160px) {
-    .rows {
-        display: inline;
-        margin: auto;
-        width: 100px;
-      }
-  }
-
-  @media only screen and (max-width: 760px) {
+  
     .content__blog__container {
       width: 84%;
     }
     .rows {
         display: inline;
         margin: auto;
+        align-items: center;
       }
       .cards__item__inner{
         width: 100%;

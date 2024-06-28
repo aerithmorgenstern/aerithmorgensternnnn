@@ -59,12 +59,29 @@ function Cards() {
               ]}
               >
               </CardItem>
+              
           </div>
           </div>
           </ul>
           <h1><br/>Coming Soon...</h1>
+          {/* <h2 style={{textAlign: 'center'}}><br/>None so far! Check back in a while.</h2> */}
             <ul className='cards__items'>
             <div className='single-rows'>
+            <CardItem
+              src={require('./images/rebellion.png')}
+              titletext= "REBELLION"
+              au= "CHILDHOOD ENEMIES AU!"
+              quote="❝ DAPHNE WONDERED HOW CORIOLANUS' NAME TASTED LIKE HEAVEN. ❞"
+              infotext1="In which Daphne Nightingale and Coriolanus Snow pay for both of their fathers' crimes in the Hunger Games and with each other."
+              infotext2= "They may dislike each other, but Daphne's only chance at victory is Coriolanus, and his is her."
+              infotext3= "After all, her name is synonymous with rebels and rebellion, and she'll need Coriolanus if she wants to survive."
+              // infotext4="Her name is synonymous with rebels and rebellion, and she'll need to play to survive."
+              endgame = "[Coriolanus Snow x fem!oc]"
+              links={[
+                { label: 'Wattpad', url: 'https://www.wattpad.com/story/357107269-rebellion-↳-coriolanus-snow-coming-soon', imageSrc: require('./images/Wattpad.png') },
+                { label: 'AO3', url: 'https://archiveofourown.org/works/56935810/chapters/144777124', imageSrc: require('./images/AO3.png') },
+              ]}
+            />
             {/* <CardItem
               src={require('./images/justice.png')}
               titletext= "JUSTICE"
@@ -75,17 +92,7 @@ function Cards() {
               infotext3= "When you play it, you win or you die."
               endgame = "[Jaime Lannister x fem!oc]"
             /> */}
-            <CardItem
-              src={require('./images/rebellion.png')}
-              titletext= "REBELLION"
-              au= "CHILDHOOD ENEMIES AU!"
-            //   quote="❝ IT WAS IN THAT MOMENT THAT PERCY REALIZED SHE WAS HOPELESSLY IN LOVE WITH FIVE HARGREEVES. ❞"
-              infotext1="In which Daphne Nightingale and Coriolanus Snow pay for both of their fathers' crimes in the Hunger Games and with each other."
-              infotext2= "They may dislike each other, but Daphne's only chance at victory is Coriolanus, and his is her."
-              infotext3= "After all, her name is synonymous with rebels and rebellion, and she'll need Coriolanus if she wants to survive."
-              // infotext4="Her name is synonymous with rebels and rebellion, and she'll need to play to survive."
-              endgame = "[Coriolanus Snow x fem!oc]"
-            />
+            
             {/* <CardItem
               src={require('./images/angelic.png')}
               titletext= "ANGELIC"
