@@ -45,7 +45,7 @@ function Footer() {
               <i class='fab fa-pinterest-p' />
             </a>
           </div>
-          <p class='website-rights'>Aerith Morgenstern © 2023</p>
+          <p class='website-rights'>Aerith Morgenstern © 2024</p>
       </section>
     </div>
     </div>
