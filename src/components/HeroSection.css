@@ -26,28 +26,23 @@ image{
     font-weight: lighter;
     font-size: 0.9rem;
     left: 100px;
+    text-shadow: 3px 1px 20px black;
 }
 
-.intro p{
-    margin-bottom: 17px;
-    /* color: #fff; */
-    /* font-weight: lighter; */
-}
+
 
 .contact-info{
     text-align: center;
     color: #fff;
     font-family: 'Playfair Regular 400 Italic', serif;
     font-weight: lighter;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     left: 100px;
     margin-top: 35px;
-}
-
-.contact-info p{
-    margin-bottom: 17px;
-    /* color: #fff; */
-    /* font-weight: lighter; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35rem;
 }
 
 .email{
@@ -55,16 +50,65 @@ image{
     color: #fff;
     font-family: 'Playfair Display Regular 400 Italic', serif;
     font-weight: lighter;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     left: 100px;
     margin-top: 8px;
 }
 
-.hero-container > h1 {
-    color: #fff;
-    font-size: 100px;
-    margin-top: -100px;
-} 
+h1{
+    color: white;
+}
+
+.contact-paragraph{
+    width: 18.5rem;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    padding: 3%;
+    width: 15rem;
+}
+
+textarea {
+    padding: 3%;
+    width: 15rem;
+}
+
+button{
+    padding: 3%;
+    width: 10rem;
+}
+
+.socials-icon{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100px;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+
+}
 
 /* @media screen and (max-width: 760px) {
     .intro{
